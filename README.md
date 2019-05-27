@@ -13,7 +13,6 @@ int main(){
     set<string> a;
     a.insert("bmw");
     a.insert("mercedes");
-    
     map<string,set<string> > car;
     car.insert(make_pair("felipe rafael", a));
     for(auto i : car)
@@ -25,6 +24,5 @@ int main(){
         cout << endl;
     }
     system("pause");
-
     return 0;
 }
